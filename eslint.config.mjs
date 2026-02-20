@@ -24,5 +24,5 @@ export default defineConfig([
       "tsdoc/syntax": "warn",
     },
   },
-  { ignores: ["eslint.config.mjs", "dist/*", "docs/*"] },
+  { ignores: ["eslint.config.mjs", "coverage/*", "dist/*", "docs/*"] },
 ]);
